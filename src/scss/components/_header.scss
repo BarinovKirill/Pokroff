@@ -1,0 +1,132 @@
+.header {
+    &__container {
+    }
+    &__top {
+        display: grid;
+        grid-template-columns: 200px auto;
+        align-items: center;
+        column-gap: 55px;
+        border-bottom: 1px solid rgba(67, 82, 92, 0.5);
+    }
+
+    &__info {
+        height: 145px;
+    }
+
+    &__logo {
+    }
+
+    &__navigation {
+        // display: grid;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    &__location {
+    }
+
+    &__nav {
+    }
+
+    &__social {
+    }
+}
+.nav {
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 50px;
+    }
+
+    &__item {
+    }
+
+    &__link {
+        font-size: 18px;
+        color: rgba(67, 82, 92, 0.7);
+        position: relative;
+
+        &:hover {
+            color: var(--color-text);
+            transition: all 0.3s;
+        }
+        &:after {
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 0%;
+            content: ".";
+            color: transparent;
+            background: var(--color-text);
+            height: 2px;
+            transition: all 0.3s;
+        }
+        &:hover:after {
+            width: 100%;
+            transition: all 0.3s;
+        }
+    }
+}
+.social {
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 25px;
+    }
+
+    &__item {
+    }
+
+    &__link svg {
+        width: 26px;
+        height: 26px;
+        fill: rgba(67, 82, 92, 0.7);
+    }
+    &__link svg:hover {
+        fill: var(--color-text);
+        transition: all 0.3s;
+    }
+}
+.header {
+    &__center {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+
+    &__catalog {
+    }
+
+    &__favorite {
+    }
+
+    &__phone {
+    }
+}
+.submit {
+}
+.search {
+}
+.header {
+    &__bottom {
+    }
+}
+.main-nav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    &__item {
+    }
+
+    &__link {
+    }
+}
