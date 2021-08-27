@@ -1,0 +1,49 @@
+.hero {
+    &-container {
+        // position: relative;
+    }
+    &__img {
+        position: absolute;
+        top: -335px;
+        right: 0;
+        z-index: -1;
+        background-repeat: no-repeat;
+    }
+
+    &__left {
+        max-width: 600px;
+        // padding-top: 100px;
+        // padding-bottom: 130px;
+    }
+
+    &__title {
+        font-size: 60px;
+        line-height: 73px;
+        color: var(--color-text);
+        margin-bottom: 35px;
+        span {
+            color: var(--color-accent);
+        }
+    }
+
+    &__text {
+        font-size: 20px;
+        line-height: 150%;
+        color: var(--color-text);
+        margin-bottom: 70px;
+    }
+
+    &__catalog-link {
+        background-color: var(--color-accent);
+        color: var(--color-white);
+    }
+}
+.hero-slide {
+    padding-top: 100px;
+    padding-bottom: 130px;
+    position: relative;
+    overflow: hidden;
+}
+.hero__slider-img {
+    position: relative;
+}
