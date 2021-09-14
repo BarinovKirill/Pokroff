@@ -1,0 +1,36 @@
+.category {
+    &__grid {
+        display: grid;
+        grid-template-columns: 1.3fr 1fr 1fr;
+        gap: 20px;
+    }
+
+    &__item {
+        height: 380px;
+        background-image: url("/img/category-grid-1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 35px;
+    }
+
+    &__item-img {
+    }
+
+    &__item-title {
+        font-size: 24px;
+        color: var(--color-white);
+        font-weight: 600;
+        line-height: 140%;
+        margin-bottom: 10px;
+    }
+
+    &__item-text {
+        font-size: 16px;
+        color: var(--color-white);
+        font-weight: 400;
+        max-width: 350px;
+        line-height: 150%;
+    }
+}
+.main-container {
+}
